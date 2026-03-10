@@ -1,0 +1,10 @@
+{
+  "description": "Sample enterprise cryptographic asset inventory",
+  "assets": [
+    {"algorithm": "RSA",     "key_size": 2048, "sensitivity": "high",   "description": "TLS server certificate",   "protocol": "TLS 1.2"},
+    {"algorithm": "ECC",     "key_size": 256,  "sensitivity": "medium", "description": "Client auth key",          "protocol": "TLS 1.3"},
+    {"algorithm": "AES-256", "key_size": 256,  "sensitivity": "low",    "description": "File encryption key",      "protocol": "AES-GCM"},
+    {"algorithm": "DH",      "key_size": 2048, "sensitivity": "medium", "description": "Legacy key exchange",      "protocol": "TLS 1.2"},
+    {"algorithm": "ML-KEM",  "key_size": 1024, "sensitivity": "high",   "description": "PQ KEM (pilot service)",   "protocol": "TLS 1.3"}
+  ]
+}
