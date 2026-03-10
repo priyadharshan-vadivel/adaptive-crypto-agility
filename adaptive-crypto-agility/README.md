@@ -1,7 +1,7 @@
 # Adaptive Crypto-Agility Decision System
 ### Quantum-Resilient Network Security
 
-> **B.Tech Cybersecurity Research Project — Sri Krishna College of Technology, Coimbatore**  
+> **B.E Cybersecurity — Sri Krishna College of Technology, Coimbatore**  
 > Academic Year 2025–2026
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://python.org)
